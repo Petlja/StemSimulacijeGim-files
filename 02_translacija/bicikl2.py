@@ -24,7 +24,7 @@ def update(m):
     m.v += deltaV
 
 def draw(m):
-    scena = Image('bicycle_background.png', (0, 0), sirina_scene_u_metrima, visina_scene_u_metrima)
+    scena = Image('bicycle_background.jpg', (0, 0), sirina_scene_u_metrima, visina_scene_u_metrima)
     bicikl = Image('bicikl.png', (m.x, m.y), sirina_bicikla_u_metrima, visina_bicikla_u_metrima)
     Draw(scena, bicikl)
 
